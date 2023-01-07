@@ -1,7 +1,6 @@
 from discord.ext import commands
 import discord, random
-import openai
-import os 
+import openai, os
 
 openai.api_key = os.environ["OPENAI_KEY"]
 
